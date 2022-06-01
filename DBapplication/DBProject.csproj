@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC8232D5-B804-4766-8840-C88C50EAD01E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DBapplication</RootNamespace>
+    <AssemblyName>DBapplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller.cs" />
+    <Compile Include="DBManager.cs" />
+    <Compile Include="CustomerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerView.Designer.cs">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerView.Designer.cs">
+      <DependentUpon>ManagerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RailWayStationDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RailWayStationDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceWorkerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ServiceWorkerView.Designer.cs">
+      <DependentUpon>ServiceWorkerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TicketOfficeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketOfficeView.Designer.cs">
+      <DependentUpon>TicketOfficeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomeForm.Designer.cs">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LogIn_SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn_SignUp.Designer.cs">
+      <DependentUpon>LogIn_SignUp.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CustomerView.resx">
+      <DependentUpon>CustomerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerView.resx">
+      <DependentUpon>ManagerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ServiceWorkerView.resx">
+      <DependentUpon>ServiceWorkerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TicketOfficeView.resx">
+      <DependentUpon>TicketOfficeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeForm.resx">
+      <DependentUpon>HomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="LogIn_SignUp.resx">
+      <DependentUpon>LogIn_SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RailWayStationDataSet.xsc">
+      <DependentUpon>RailWayStationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet.xss">
+      <DependentUpon>RailWayStationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet1.xsc">
+      <DependentUpon>RailWayStationDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet1.xss">
+      <DependentUpon>RailWayStationDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet10.xsc">
+      <DependentUpon>RailWayStationDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet10.xss">
+      <DependentUpon>RailWayStationDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet11.xsc">
+      <DependentUpon>RailWayStationDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet11.xss">
+      <DependentUpon>RailWayStationDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet12.xsc">
+      <DependentUpon>RailWayStationDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet12.xss">
+      <DependentUpon>RailWayStationDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet13.xsc">
+      <DependentUpon>RailWayStationDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet13.xss">
+      <DependentUpon>RailWayStationDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet14.xsc">
+      <DependentUpon>RailWayStationDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet14.xss">
+      <DependentUpon>RailWayStationDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet15.xsc">
+      <DependentUpon>RailWayStationDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet15.xss">
+      <DependentUpon>RailWayStationDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet16.xsc">
+      <DependentUpon>RailWayStationDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet16.xss">
+      <DependentUpon>RailWayStationDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet17.xsc">
+      <DependentUpon>RailWayStationDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet17.xss">
+      <DependentUpon>RailWayStationDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet18.xsc">
+      <DependentUpon>RailWayStationDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet18.xss">
+      <DependentUpon>RailWayStationDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet19.xsc">
+      <DependentUpon>RailWayStationDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet19.xss">
+      <DependentUpon>RailWayStationDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet2.xsc">
+      <DependentUpon>RailWayStationDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet2.xss">
+      <DependentUpon>RailWayStationDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet3.xsc">
+      <DependentUpon>RailWayStationDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet3.xss">
+      <DependentUpon>RailWayStationDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet4.xsc">
+      <DependentUpon>RailWayStationDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet4.xss">
+      <DependentUpon>RailWayStationDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet5.xsc">
+      <DependentUpon>RailWayStationDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet5.xss">
+      <DependentUpon>RailWayStationDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet6.xsc">
+      <DependentUpon>RailWayStationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet6.xss">
+      <DependentUpon>RailWayStationDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet7.xsc">
+      <DependentUpon>RailWayStationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet7.xss">
+      <DependentUpon>RailWayStationDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet8.xsc">
+      <DependentUpon>RailWayStationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet8.xss">
+      <DependentUpon>RailWayStationDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet9.xsc">
+      <DependentUpon>RailWayStationDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="RailWayStationDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RailWayStationDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RailWayStationDataSet9.xss">
+      <DependentUpon>RailWayStationDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

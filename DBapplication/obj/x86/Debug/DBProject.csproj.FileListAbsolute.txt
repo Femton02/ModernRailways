@@ -1,0 +1,15 @@
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBProject.csproj.AssemblyReference.cache
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.Properties.Resources.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBProject.csproj.GenerateResource.cache
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBProject.csproj.CoreCompileInputs.cache
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.exe
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.pdb
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\bin\Debug\DBapplication.exe.config
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\bin\Debug\DBapplication.exe
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\bin\Debug\DBapplication.pdb
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.LoginForm.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.CustomerView.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.HomeForm.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.TicketOfficeView.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.ServiceWorkerView.resources
+C:\Users\Femto\Desktop\ModernRailways\ModernRailways\DBapplication\obj\x86\Debug\DBapplication.ManagerView.resources
